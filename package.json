@@ -1,0 +1,27 @@
+{
+  "name": "twits-in-power",
+  "version": "1.0.0",
+  "description": "Web App that pulls the most popular tweets from world leaders",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Falco101/Twits-In-Power.git"
+  },
+  "keywords": [
+    "Twitter",
+    "Politicians"
+  ],
+  "author": "JByrd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Falco101/Twits-In-Power/issues"
+  },
+  "homepage": "https://github.com/Falco101/Twits-In-Power#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "socket.io": "^2.0.3"
+  }
+}
