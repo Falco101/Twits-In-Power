@@ -1,27 +1,30 @@
 {
-  "name": "twits-in-power",
+  "name": "newworldorder",
   "version": "1.0.0",
-  "description": "Web App that pulls the most popular tweets from world leaders",
+  "description": "Web app to grab the most popular tweets from world leaders",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Falco101/Twits-In-Power.git"
-  },
   "keywords": [
-    "Twitter",
-    "Politicians"
+    "twitter",
+    "politics"
   ],
-  "author": "JByrd",
+  "author": "JmByrd",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Falco101/Twits-In-Power/issues"
-  },
-  "homepage": "https://github.com/Falco101/Twits-In-Power#readme",
   "dependencies": {
+    "@types/node": "^8.0.25",
+    "ajv-keywords": "^2.1.0",
     "express": "^4.15.4",
-    "socket.io": "^2.0.3"
+    "gulp": "^3.9.1",
+    "node-sass": "^4.5.3",
+    "socket.io": "^2.0.3",
+    "twitter": "^1.7.1",
+    "typescript": "^2.4.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "devDependencies": {
+    "webpack-init": "^0.1.2"
   }
 }
